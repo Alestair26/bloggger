@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bloggger</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
+    </head>
+    <body>
+        <div class="div1">
+            <h1 style="align-items: center">Bloggger</h1>
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <form action="/show" method="POST" style="height:100% ;width:inherit">
+                    <div class="home">
+                        <label>Blog name:</label>
+                        <input type="text" placeholder="name" name="name">
+                    </div>
+                    
+                    <div class="home">
+                        <label>Author:</label>
+                        <input type="text" placeholder="author" name="author">
+                    </div>
+        
+                    <div id="special">
+                        <label>Blog Here:</label>
+                        <textarea name="desc"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" id="b">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
+

@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-blend-mode: darken;
+    color:azure;
+}
+.jumbotron{
+    height: 600px;
+    width: 500px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-radius: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin:auto; 
+    padding: 2px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-blend-mode: difference;
+}
+.container{
+    height:600px;
+}
+
+.div1{
+    margin: 10px auto;
+    height: 100px;
+    width: 500px;
+    padding:1px 20px;
+    text-align: center;
+}
+.home{
+    padding: 1px 2px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    height:15%;
+    width:100%;
+    padding:0px;
+    border:none;
+} 
+#special{
+    padding: 1px 2px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    height:50%;
+    width:100%;
+    padding:0px;
+    border:none;   
+}
+#b{
+    width:100%;
+    margin:10px 3px 0px;
+    height:30px;
+}
+.div1 h1{
+    height:80px;
+    font-size:4rem;
+}
+
+label{
+    width:20%;
+    margin:5px;
+}
+input{
+    margin:5px;
+    width:80%;
+    height: 50px;
+}
+textarea{
+    margin:5px;
+    width:80%;
+    height: 200px;
+}
+form{
+    margin:30px 0px;
+}
+#d1{
+    width:100%;
+    height:20%;
+    border:2px solid black;
+    margin:3px auto;
+    text-align: center;
+}
+#d2{
+    width:100%;
+    height:20%;
+    border:2px solid black;
+    margin:3px auto;
+}
+#d3{
+    width:100%;
+    height:50%;
+    border:2px solid black;
+    margin:3px auto;
+}
+#d1 h1{
+    height:110px;
+    font-size:4rem;
+}
